@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Artisans Alley",
+    "imageSrc": "projects/project1.png",
+    "description": "I have created an engaging e-commerce platform using React and Spring Boot, showcasing my skills in front-end development and back-end integration.",
+    "skills": ["React", "CSS", "Spring Boot","MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "BUDGETBUDDY",
+    "imageSrc": "projects/project2.png",
+    "description": "I have developed a comprehensive cashbook system leveraging React for the user interface and Spring Boot for robust back-end functionality.",
+    "skills": ["React", "CSS", "Spring Boot","MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yuvaraj2511/BudgetBuddy"
+  },
+  {
+    "title": "Library Management",
+    "imageSrc": "projects/project3.png",
+    "description": "I have developed a versatile Library Management System in Python with SQLite and Tkinter, catering to both administrators and students with seamless functionality and an intuitive interface.",
+    "skills": ["Python", "sqlite3"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yuvaraj2511/Library-Management"
+  }
+]
