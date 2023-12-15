@@ -1,15 +1,18 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/Portfolio/">
+      <a className={styles.title} onClick={scrollToTop}>
         Portfolio
       </a>
       <div className={styles.menu}>
