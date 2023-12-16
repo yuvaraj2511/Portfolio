@@ -30,14 +30,15 @@ export const About = () => {
       className={styles.container}
       id="about"
     >
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <motion.img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("hero/mypic1.jpg")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
+          
           <motion.li
             className={styles.aboutItem}
             animate={{ opacity: 1, x: 0 }}
@@ -46,13 +47,16 @@ export const About = () => {
           >
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Aspiring Full-Stack Developer</h3>
               <p>
-                I&rsquo;m a frontend developer with experience in building responsive
-                and optimized sites
+                Passionate about crafting seamless user experiences through
+                technologies like React, Spring Boot, MySQL and programming languages
+                such as Java, Python, and C++.
               </p>
             </div>
           </motion.li>
+
+          
           <motion.li
             className={styles.aboutItem}
             animate={{ opacity: 1, x: 0 }}
@@ -61,13 +65,15 @@ export const About = () => {
           >
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Cybersecurity and AI Enthusiast</h3>
               <p>
-                I have experience developing fast and optimized back-end systems
-                and APIs
+                Excited by the realms of cybersecurity and artificial intelligence,
+                I actively explore the latest trends and advancements.
               </p>
             </div>
           </motion.li>
+
+          
           <motion.li
             className={styles.aboutItem}
             animate={{ opacity: 1, x: 0 }}
@@ -76,10 +82,10 @@ export const About = () => {
           >
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Eager Learner and Team Contributor</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Always eager to contribute and learn in a dynamic team environment.
+                Let’s connect and build something amazing together!
               </p>
             </div>
           </motion.li>

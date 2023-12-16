@@ -10,7 +10,6 @@ export const Projects = () => {
 
   const handleScroll = () => {
     const scrollY = window.scrollY;
-    console.log(scrollY);
     const triggerPosition = 1800; 
 
     if (scrollY > triggerPosition) {
